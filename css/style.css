@@ -1,0 +1,37 @@
+.bounce, .bounce2 {
+     height: 100px;
+     width: 100px;
+     border: 1px black solid;
+     position: absolute;
+     background: green;
+     display: inline-block;
+    -webkit-animation: spin 5s infinite linear;
+     -moz-animation: spin 5s infinite linear;
+     -o-animation: spin 5s infinite linear;
+     -ms-animation: spin 5s infinite linear;
+     animation: spin 5s infinite linear;
+}
+ .box{
+     height: 80vh;
+     width: 80vw;
+     margin-left: 10vw;
+     margin-top: 10vh;
+}
+ .button {
+     margin: 0;
+     padding: 0;
+}
+.bounce {
+     
+}
+.bounce2 {
+    
+}
+ @-webkit-keyframes spin {
+     0% {
+         -webkit-transform: rotate(0deg);
+    }
+     100% {
+         -webkit-transform: rotate(360deg);
+    }
+}
